@@ -1,0 +1,41 @@
+⚠️ Important Note:
+The PenguinGPT extension may no longer be available on Scratch.
+Without it, only the basic hardcoded chatbot works.
+
+ScratchGPT - Chatbot in Scratch 🤖
+(Supports PenguinGPT Extension if Available)
+
+📌 About This Project:
+This is a beginner-friendly chatbot simulation created using Scratch.
+It works in two modes depending on the availability of the PenguinGPT extension:
+
+🟢 Mode 1: With PenguinGPT Extension (If Available)
+Ask any question, get real AI-style answers powered by PenguinGPT.
+
+Works like a mini ChatGPT right inside Scratch.
+
+🔧 Example Logic with PenguinGPT:
+🗨️ ask [Type your question:] and wait
+🗨️ penguinGPT ask (answer) and wait
+🗨️ say (penguinGPT response)
+
+🔵 Mode 2: Without PenguinGPT (Manual Chatbot)
+Uses simple if-else blocks to respond to fixed questions.
+
+For anything else, shows a default reply.
+
+💡 Example Hardcoded Chatbot:
+🗨️ ask [Type your question:] and wait
+
+plaintext
+Copy
+Edit
+If answer = "hello" ➡️ say "Hi there! I'm ScratchGPT. How can I assist you?"  
+If answer = "how are you" ➡️ say "I'm just a bunch of code, but I'm feeling smart today!"  
+If answer = "what's your name" ➡️ say "I'm ScratchGPT — your chatbot made in Scratch!"  
+If answer = "what is scratch" or "who made you" ➡️ say "I was made by a smart Scratch programmer like you!"  
+Else ➡️ say "Sorry, I don't understand."  
+🚀 How to Use:
+✅ Add PenguinGPT extension (if available) for full AI responses.
+✅ Without the extension, enjoy basic chatbot replies using Scratch blocks.
+✅ You can expand the chatbot by adding more if-else conditions for extra questions.
